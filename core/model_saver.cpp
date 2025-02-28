@@ -1,9 +1,9 @@
 #include "model_saver.h"
-#include "layers/basic_layers/dense_layer.h"
+#include "layers/dense_layer.h"
 #include "layers/lstm.h"
 #include "activations/relu.h"
 #include "layers/dropout.h"
-#include "layers/convolutional/conv2d.h"
+#include "layers/conv2d.h"
 #include <stdexcept>
 #include <sstream>
 
